@@ -1,12 +1,4 @@
 <?php
-	/*
-	$server='localhost';
-	$user='admin';
-	$password='1admin!';
-	$db = 'crm_web';
-	$prefix = 'clic_web_';
-	$joomla_prefix = 'clic_';
-	*/
 	$connect= mysql_connect($server,$user,$password);
 	mysql_query("set names 'utf8'");
 	mysql_select_db($db,$connect);
