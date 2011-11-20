@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5.0">
+	<name><component_name></name>
+	<creationDate>2011-08-04</creationDate>
+	<author></author>
+	<authorEmail>korman_@mail.ru</authorEmail>
+	<authorUrl></authorUrl>
+	<copyright>Copyright © 2011 - All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.0</version>
+	<description><![CDATA[smotors]]></description>
+	<files folder="frontend">
+		<filename><component_name>.php</filename>
+		<filename><component_name>.xml</filename>
+		<filename>controller.php</filename>
+		<folder>models</folder>
+		<folder>views</folder>
+	</files>
+	
+	<administration>
+		<menu><component_name></menu>
+		<submenu>
+		<sub_menu>
+		</submenu>
+		<files folder="backend">
+			<filename><component_name>.php</filename>
+			<filename><component_name>.xml</filename>
+			<filename>controller.php</filename>
+			<folder>models</folder>
+			<folder>views</folder>
+			<folder>tables</folder>
+		</files>
+	</administration>
+</install>
